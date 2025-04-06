@@ -43,14 +43,15 @@ System Setting changes:
 
 -Inside the Logitech gaming software turn off the toggle that allows the game to change device settings (as otherwise LogiDrivePy seems to set wheel range to 200 degrees instead of 900 degrees)   
 The centering spring was also disabled for the testing as a new one is applied inside the code.  
-
+################################################################################################################
 Usage:  
 The main python scripts used during the final testing of the project are stored in the folder "FinalPythonCodes"  
+The scripts used are: FinalCode, FinalCodeFam, FinalCodeWash
 They must be stored inside of {CARLA_0.9.15\PythonAPI\carla} to run without errors with their current implementation.  
 The computer being used must also have a stable internet connection and be up to the minimum specifications set out on the CARLA website.  
+################################################################################################################
 
 This code has only been tested on CARLA Town01 and due to some hard coded variables in its current state will not work with other maps. The code does not directly set the map to Town01 (which is possible) but instead changes the default town in the set up files to Town01. Use this copy and paste to avoid manual changing :   "[/Script/EngineSettings.GameMapsSettings] EditorStartupMap=/Game/Carla/Maps/Town01_Opt.Town01_Opt GameDefaultMap=/Game/Carla/Maps/Town01_Opt.Town01_Opt ServerDefaultMap=/Game/Carla/Maps/Town01_Opt.Town01_Opt GlobalDefaultGameMode=/Game/Carla/Blueprints/Game/CarlaGameMode.CarlaGameMode_C GameInstanceClass=/Script/Carla.CarlaGameInstance TransitionMap=/Game/Carla/Maps/Town01_Opt.Town01_Opt GlobalDefaultServerGameMode=/Game/Carla/Blueprints/Game/CarlaGameMode.CarlaGameMode_C"
-
 
 
 Important:  
